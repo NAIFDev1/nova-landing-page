@@ -1,5 +1,7 @@
 # NOVA — Work Smarter. Move Faster.
 
+> 🔗 **Live demo:** [naifdev1.github.io/nova-landing-page](https://naifdev1.github.io/nova-landing-page/)
+
 A premium, production-quality landing page for **NOVA**, a fictional productivity platform. Built as a standalone frontend project designed to look and feel like a real commercial SaaS product — not a portfolio template.
 
 > All brand names, companies, testimonials, and data on this page are **fictional** and shown for demonstration purposes only.
@@ -90,11 +92,13 @@ nova/
 
 ## Screenshots
 
-_(Demo screenshots placeholder — replace with captured images of the live page.)_
+_(Screenshot placeholder section — add captures of the live page here.)_
 
 | Desktop | Mobile |
 |:-------:|:------:|
-| | |
+| _add screenshot_ | _add screenshot_ |
+
+> Live preview: https://naifdev1.github.io/nova-landing-page/
 
 ## Design Direction
 
