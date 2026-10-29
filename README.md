@@ -1,113 +1,54 @@
-# NOVA — Work Smarter. Move Faster.
+# NOVA Studio
 
-> 🔗 **Live demo:** [naifdev1.github.io/nova-landing-page](https://naifdev1.github.io/nova-landing-page/)
+An interactive project workspace concept by Naif. Open a project and work directly with its tasks, rather than scrolling through a product mockup.
 
-A premium, production-quality landing page for **NOVA**, a fictional productivity platform. Built as a standalone frontend project designed to look and feel like a real commercial SaaS product — not a portfolio template.
+NOVA is fictional. The people, projects, feature lists, and prices are illustrative. No account, payment, backend, or team synchronization is connected.
 
-> All brand names, companies, testimonials, and data on this page are **fictional** and shown for demonstration purposes only.
-
----
-
-## Tech Stack
-
-- **React** 18
-- **Vite** 5
-- **JavaScript (JSX)**
-- **Tailwind CSS**
-- **shadcn/ui** components (Radix + CVA)
-- **Lucide React** icons
-- **Framer Motion** animations
-
-## Features
-
-- ✅ Sticky navigation with animated mobile menu
-- ✅ Hero with animated in-browser dashboard mockup (KPI cards, charts, tasks, team activity)
-- ✅ "Trusted by" social proof strip with fictional logos
-- ✅ 6-feature grid with hover interactions
-- ✅ 3-part product showcase: Organize, Understand Progress, Automate
-- ✅ Solutions section (team-oriented use cases)
-- ✅ Interactive pricing with monthly/yearly toggle and highlighted plan
-- ✅ Fictional testimonials
-- ✅ Smooth animated FAQ accordion
-- ✅ Strong final CTA section
-- ✅ Multi-column footer with social icons
-- ✅ Framer Motion entrance, scroll-reveal, and micro-interactions
-- ✅ Respects `prefers-reduced-motion`
-- ✅ Fully responsive (mobile / tablet / desktop / large screens)
-- ✅ Zero console errors, no external APIs, no copyrighted assets
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 20+ (developed on v24)
-
-### Installation
+## Run locally
 
 ```bash
-npm install
-```
-
-### Development
-
-```bash
+npm ci
 npm run dev
 ```
 
-Open http://localhost:5173 (or the URL printed by Vite).
-
-### Production build
+Vite serves the site at `/nova-landing-page/`. The base path remains compatible with the existing GitHub Pages project.
 
 ```bash
 npm run build
-```
-
-The optimized output is written to `dist/`.
-
-### Preview the production build
-
-```bash
 npm run preview
 ```
 
-## Project Structure
+## What works
 
-```
-nova/
-├── public/               # Static assets (favicon)
-├── src/
-│   ├── components/       # Reusable UI & structural components
-│   │   └── ui/           # shadcn-style primitives (button, badge, motion, icons)
-│   ├── sections/         # One folder per page section (Hero, Features, Pricing…)
-│   ├── data/             # Content & mock dashboard data (single source of truth)
-│   ├── lib/              # Utilities (cn helper)
-│   ├── App.jsx           # Page composition
-│   ├── main.jsx          # Entry point
-│   └── index.css         # Tailwind + design tokens
-├── index.html
-├── package.json
-├── tailwind.config.js
-└── vite.config.js
-```
+- Three independently editable sample projects, reached through sidebar navigation.
+- Board and list views over the same task data.
+- Task creation with owner, due day, inline validation, and a 100-character title limit.
+- Status changes and completion toggles that update project progress and the workspace open-task count.
+- Search combined with owner filtering, including empty states and clearing filters.
+- Local browser persistence, safe recovery from invalid data, and a usable fallback when storage is blocked.
+- Per-project reset and a 60-task demonstration capacity.
+- Separate hash routes for the project index, pricing, and field guide, with browser Back support.
+- Monthly/yearly concept pricing. Plan actions open the demo and never subscribe or charge anyone.
+- Native FAQ disclosures and a native modal navigation drawer on mobile.
+- Keyboard focus, accessible labels, reduced-motion support, and responsive layouts.
 
-## Screenshots
+## Stack
 
-_(Screenshot placeholder section — add captures of the live page here.)_
+React 18, Vite 5, JavaScript, Tailwind CSS 3, Lucide React, and Framer Motion. No framework migration or added runtime dependency.
 
-| Desktop | Mobile |
-|:-------:|:------:|
-| _add screenshot_ | _add screenshot_ |
+## Source map
 
-> Live preview: https://naifdev1.github.io/nova-landing-page/
+- `src/Studio.jsx`: shell, routing, persistent workspace state, project index, plans, guide.
+- `src/components/ProjectBoard.jsx`: tasks, search, owner filters, board/list, composer.
+- `src/data/workspace.js`: sample data, statuses, FAQ content, persisted-data validation.
+- `src/studio.css`: active design system and responsive behavior.
+- `PRODUCT.md` and `DESIGN.md`: product boundaries and visual system.
+- `docs/verification.md`: validation evidence and practical limitations.
 
-## Design Direction
+## Fonts
 
-- Dark-first interface with a refined near-black background
-- Strong typography: Space Grotesk (display) + Inter (body)
-- Subtle gradients, fine borders, soft glow and grid background
-- Premium cards with intentional visual hierarchy
-- Minimal, performant motion that never distracts
+Stack Sans Headline and Stack Sans Text are self-hosted under `public/fonts/`, with their SIL Open Font License files. The frontend makes no external font request.
 
-## License
+## Hosting
 
-MIT — free to use for learning and showcasing. This is a fictional product and is **not** affiliated with any real company.
+Production output is `dist/`. Build paths target `/nova-landing-page/`; host the output at that path on GitHub Pages. This branch is a reviewable rebuild; publishing is a separate action.

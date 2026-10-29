@@ -27,3 +27,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local design and browser evidence
+.taste-skill/
+.impeccable/questions/
+.impeccable/review/
