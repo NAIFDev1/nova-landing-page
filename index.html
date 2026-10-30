@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -8,23 +8,41 @@
       name="description"
       content="NOVA — a modern productivity platform that helps teams organize ideas, manage work, and turn projects into results."
     />
-    <meta name="theme-color" content="#070709" />
-    <meta property="og:title" content="NOVA — Work Smarter. Move Faster." />
+    <meta name="theme-color" content="#eeefe9" />
+    <meta
+      property="og:title"
+      content="NOVA Studio — A little closer to done."
+    />
     <meta
       property="og:description"
       content="A powerful workspace designed to help modern teams organize ideas, manage work, and turn projects into results."
     />
     <meta property="og:type" content="website" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
-      rel="stylesheet"
+      rel="preload"
+      href="/fonts/stack-headline-500.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
     />
-    <title>NOVA — Work Smarter. Move Faster.</title>
+    <link
+      rel="preload"
+      href="/fonts/stack-text-400.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <title>NOVA Studio — A little closer to done.</title>
   </head>
   <body>
     <div id="root"></div>
+    <noscript
+      >NOVA is an interactive project workspace demo by Naif. Enable JavaScript
+      to explore the task board, or
+      <a href="https://github.com/NAIFDev1/nova-landing-page"
+        >read the project source</a
+      >.</noscript
+    >
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

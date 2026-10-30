@@ -1,0 +1,514 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-29T19:14:17.203417Z",
+  "title": "Design System: NOVA Studio",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "neutral",
+        "displayName": "Olive Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0184 138.74)",
+          "oklch(27% 0.0184 138.74)",
+          "oklch(39% 0.0184 138.74)",
+          "oklch(51% 0.0184 138.74)",
+          "oklch(63% 0.0184 138.74)",
+          "oklch(75% 0.0184 138.74)",
+          "oklch(87% 0.0184 138.74)",
+          "oklch(95% 0.015 138.74)"
+        ]
+      },
+      "secondary": {
+        "role": "neutral",
+        "displayName": "Quiet Olive",
+        "tonalRamp": [
+          "oklch(15% 0.0242 134.24)",
+          "oklch(27% 0.0242 134.24)",
+          "oklch(39% 0.0242 134.24)",
+          "oklch(51% 0.0242 134.24)",
+          "oklch(63% 0.0242 134.24)",
+          "oklch(75% 0.0242 134.24)",
+          "oklch(87% 0.0242 134.24)",
+          "oklch(95% 0.015 134.24)"
+        ]
+      },
+      "ground": {
+        "role": "neutral",
+        "displayName": "Desk Ground",
+        "tonalRamp": [
+          "oklch(15% 0.008 114.22)",
+          "oklch(27% 0.008 114.22)",
+          "oklch(39% 0.008 114.22)",
+          "oklch(51% 0.008 114.22)",
+          "oklch(63% 0.008 114.22)",
+          "oklch(75% 0.008 114.22)",
+          "oklch(87% 0.008 114.22)",
+          "oklch(95% 0.008 114.22)"
+        ]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "White Sheet",
+        "tonalRamp": [
+          "oklch(15% 0 89.88)",
+          "oklch(27% 0 89.88)",
+          "oklch(39% 0 89.88)",
+          "oklch(51% 0 89.88)",
+          "oklch(63% 0 89.88)",
+          "oklch(75% 0 89.88)",
+          "oklch(87% 0 89.88)",
+          "oklch(95% 0 89.88)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Soft Surface",
+        "tonalRamp": [
+          "oklch(15% 0.0067 115.7)",
+          "oklch(27% 0.0067 115.7)",
+          "oklch(39% 0.0067 115.7)",
+          "oklch(51% 0.0067 115.7)",
+          "oklch(63% 0.0067 115.7)",
+          "oklch(75% 0.0067 115.7)",
+          "oklch(87% 0.0067 115.7)",
+          "oklch(95% 0.0067 115.7)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Sheet Divider",
+        "tonalRamp": [
+          "oklch(15% 0.0122 116.82)",
+          "oklch(27% 0.0122 116.82)",
+          "oklch(39% 0.0122 116.82)",
+          "oklch(51% 0.0122 116.82)",
+          "oklch(63% 0.0122 116.82)",
+          "oklch(75% 0.0122 116.82)",
+          "oklch(87% 0.0122 116.82)",
+          "oklch(95% 0.0122 116.82)"
+        ]
+      },
+      "control": {
+        "role": "neutral",
+        "displayName": "Control Edge",
+        "tonalRamp": [
+          "oklch(15% 0.0183 124)",
+          "oklch(27% 0.0183 124)",
+          "oklch(39% 0.0183 124)",
+          "oklch(51% 0.0183 124)",
+          "oklch(63% 0.0183 124)",
+          "oklch(75% 0.0183 124)",
+          "oklch(87% 0.0183 124)",
+          "oklch(95% 0.015 124)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Citron",
+        "tonalRamp": [
+          "oklch(15% 0.045 115.09)",
+          "oklch(27% 0.081 115.09)",
+          "oklch(39% 0.117 115.09)",
+          "oklch(51% 0.1218 115.09)",
+          "oklch(63% 0.111 115.09)",
+          "oklch(75% 0.075 115.09)",
+          "oklch(87% 0.039 115.09)",
+          "oklch(95% 0.015 115.09)"
+        ]
+      },
+      "accent-dark": {
+        "role": "primary",
+        "displayName": "Olive",
+        "tonalRamp": [
+          "oklch(15% 0.045 118.28)",
+          "oklch(27% 0.081 118.28)",
+          "oklch(39% 0.1034 118.28)",
+          "oklch(51% 0.1034 118.28)",
+          "oklch(63% 0.1034 118.28)",
+          "oklch(75% 0.075 118.28)",
+          "oklch(87% 0.039 118.28)",
+          "oklch(95% 0.015 118.28)"
+        ]
+      },
+      "accent-pale": {
+        "role": "primary",
+        "displayName": "Pale Citron",
+        "tonalRamp": [
+          "oklch(15% 0.0213 115.42)",
+          "oklch(27% 0.0213 115.42)",
+          "oklch(39% 0.0213 115.42)",
+          "oklch(51% 0.0213 115.42)",
+          "oklch(63% 0.0213 115.42)",
+          "oklch(75% 0.0213 115.42)",
+          "oklch(87% 0.0213 115.42)",
+          "oklch(95% 0.015 115.42)"
+        ]
+      },
+      "accent-hover": {
+        "role": "primary",
+        "displayName": "Citron Hover",
+        "tonalRamp": [
+          "oklch(15% 0.045 116.12)",
+          "oklch(27% 0.081 116.12)",
+          "oklch(39% 0.117 116.12)",
+          "oklch(51% 0.1353 116.12)",
+          "oklch(63% 0.111 116.12)",
+          "oklch(75% 0.075 116.12)",
+          "oklch(87% 0.039 116.12)",
+          "oklch(95% 0.015 116.12)"
+        ]
+      },
+      "dark-hover": {
+        "role": "neutral",
+        "displayName": "Olive Action Hover",
+        "tonalRamp": [
+          "oklch(15% 0.0256 134.34)",
+          "oklch(27% 0.0256 134.34)",
+          "oklch(39% 0.0256 134.34)",
+          "oklch(51% 0.0256 134.34)",
+          "oklch(63% 0.0256 134.34)",
+          "oklch(75% 0.0256 134.34)",
+          "oklch(87% 0.0256 134.34)",
+          "oklch(95% 0.015 134.34)"
+        ]
+      },
+      "nav-hover": {
+        "role": "neutral",
+        "displayName": "Navigation Hover",
+        "tonalRamp": [
+          "oklch(15% 0.015 119.12)",
+          "oklch(27% 0.015 119.12)",
+          "oklch(39% 0.015 119.12)",
+          "oklch(51% 0.015 119.12)",
+          "oklch(63% 0.015 119.12)",
+          "oklch(75% 0.015 119.12)",
+          "oklch(87% 0.015 119.12)",
+          "oklch(95% 0.015 119.12)"
+        ]
+      },
+      "nav-active": {
+        "role": "neutral",
+        "displayName": "Navigation Active",
+        "tonalRamp": [
+          "oklch(15% 0.0205 118.96)",
+          "oklch(27% 0.0205 118.96)",
+          "oklch(39% 0.0205 118.96)",
+          "oklch(51% 0.0205 118.96)",
+          "oklch(63% 0.0205 118.96)",
+          "oklch(75% 0.0205 118.96)",
+          "oklch(87% 0.0205 118.96)",
+          "oklch(95% 0.015 118.96)"
+        ]
+      },
+      "progress": {
+        "role": "primary",
+        "displayName": "Completion Olive",
+        "tonalRamp": [
+          "oklch(15% 0.045 120.82)",
+          "oklch(27% 0.081 120.82)",
+          "oklch(39% 0.1083 120.82)",
+          "oklch(51% 0.1083 120.82)",
+          "oklch(63% 0.1083 120.82)",
+          "oklch(75% 0.075 120.82)",
+          "oklch(87% 0.039 120.82)",
+          "oklch(95% 0.015 120.82)"
+        ]
+      },
+      "progress-track": {
+        "role": "primary",
+        "displayName": "Completion Track",
+        "tonalRamp": [
+          "oklch(15% 0.0313 118.91)",
+          "oklch(27% 0.0313 118.91)",
+          "oklch(39% 0.0313 118.91)",
+          "oklch(51% 0.0313 118.91)",
+          "oklch(63% 0.0313 118.91)",
+          "oklch(75% 0.0313 118.91)",
+          "oklch(87% 0.0313 118.91)",
+          "oklch(95% 0.015 118.91)"
+        ]
+      },
+      "status-ready": {
+        "role": "neutral",
+        "displayName": "Ready Dot",
+        "tonalRamp": [
+          "oklch(15% 0.0202 122.92)",
+          "oklch(27% 0.0202 122.92)",
+          "oklch(39% 0.0202 122.92)",
+          "oklch(51% 0.0202 122.92)",
+          "oklch(63% 0.0202 122.92)",
+          "oklch(75% 0.0202 122.92)",
+          "oklch(87% 0.0202 122.92)",
+          "oklch(95% 0.015 122.92)"
+        ]
+      },
+      "status-progress": {
+        "role": "neutral",
+        "displayName": "In Progress Dot",
+        "tonalRamp": [
+          "oklch(15% 0.045 118.03)",
+          "oklch(27% 0.081 118.03)",
+          "oklch(39% 0.082 118.03)",
+          "oklch(51% 0.082 118.03)",
+          "oklch(63% 0.082 118.03)",
+          "oklch(75% 0.075 118.03)",
+          "oklch(87% 0.039 118.03)",
+          "oklch(95% 0.015 118.03)"
+        ]
+      },
+      "status-done": {
+        "role": "neutral",
+        "displayName": "Done Dot",
+        "tonalRamp": [
+          "oklch(15% 0.045 127.71)",
+          "oklch(27% 0.0475 127.71)",
+          "oklch(39% 0.0475 127.71)",
+          "oklch(51% 0.0475 127.71)",
+          "oklch(63% 0.0475 127.71)",
+          "oklch(75% 0.0475 127.71)",
+          "oklch(87% 0.039 127.71)",
+          "oklch(95% 0.015 127.71)"
+        ]
+      },
+      "invalid": {
+        "role": "neutral",
+        "displayName": "Invalid Input",
+        "tonalRamp": [
+          "oklch(15% 0.045 25.22)",
+          "oklch(27% 0.081 25.22)",
+          "oklch(39% 0.117 25.22)",
+          "oklch(51% 0.147 25.22)",
+          "oklch(63% 0.111 25.22)",
+          "oklch(75% 0.075 25.22)",
+          "oklch(87% 0.039 25.22)",
+          "oklch(95% 0.015 25.22)"
+        ]
+      },
+      "disabled-bg": {
+        "role": "neutral",
+        "displayName": "Disabled Surface",
+        "tonalRamp": [
+          "oklch(15% 0.015 119.12)",
+          "oklch(27% 0.015 119.12)",
+          "oklch(39% 0.015 119.12)",
+          "oklch(51% 0.015 119.12)",
+          "oklch(63% 0.015 119.12)",
+          "oklch(75% 0.015 119.12)",
+          "oklch(87% 0.015 119.12)",
+          "oklch(95% 0.015 119.12)"
+        ]
+      },
+      "disabled-text": {
+        "role": "neutral",
+        "displayName": "Disabled Text",
+        "tonalRamp": [
+          "oklch(15% 0.0219 130.42)",
+          "oklch(27% 0.0219 130.42)",
+          "oklch(39% 0.0219 130.42)",
+          "oklch(51% 0.0219 130.42)",
+          "oklch(63% 0.0219 130.42)",
+          "oklch(75% 0.0219 130.42)",
+          "oklch(87% 0.0219 130.42)",
+          "oklch(95% 0.015 130.42)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "headline": {
+        "displayName": "Screen heading",
+        "purpose": "Default desktop h1; responsive sizes are documented in DESIGN.md."
+      },
+      "title": {
+        "displayName": "Task title",
+        "purpose": "Medium, readable task notation on the default desktop board."
+      },
+      "body": {
+        "displayName": "Screen description",
+        "purpose": "Supporting copy under screen headings."
+      },
+      "label": {
+        "displayName": "Compact notation",
+        "purpose": "Task metadata, counts, categories, owner names, and small selectors."
+      },
+      "action": {
+        "displayName": "Action label",
+        "purpose": "Primary, secondary, and dark action buttons."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "control-state",
+        "value": "background 0.15s, transform 0.15s",
+        "purpose": "Shared action hover/press feedback; CSS uses its default ease."
+      },
+      {
+        "name": "navigation-state",
+        "value": "background 0.15s, color 0.15s",
+        "purpose": "Rail navigation hover and active feedback."
+      },
+      {
+        "name": "disclosure",
+        "value": "transform 0.15s",
+        "purpose": "Guide plus-to-minus rotation."
+      },
+      {
+        "name": "task-layout",
+        "value": "0.22s",
+        "purpose": "Framer Motion layout reconciliation; no explicit custom easing in source."
+      },
+      {
+        "name": "progress",
+        "value": "0.25s",
+        "purpose": "Framer Motion scaleX completion update."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none / 0s",
+        "purpose": "CSS removes animation, transition and smooth scrolling; React disables layout movement and sets progress duration to zero."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1700px"
+      },
+      {
+        "name": "desktop-compact-max",
+        "value": "1250px"
+      },
+      {
+        "name": "narrow-desktop-max",
+        "value": "1000px"
+      },
+      {
+        "name": "navigation-dialog-max",
+        "value": "900px"
+      },
+      {
+        "name": "tablet-compact-max",
+        "value": "700px"
+      },
+      {
+        "name": "phone-max",
+        "value": "540px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Citron action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "New task action with hover, press, disabled, and keyboard feedback.",
+      "html": "<button class=\"ds-primary\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg>New task</button>",
+      "css": ".ds-primary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:40px;padding:11px 16px;border:0;border-radius:7px;font:500 12px/1.4 'Stack Sans Text',Arial,sans-serif;background:var(--accent,#e1ee8d);color:var(--ink,#2d342b);cursor:pointer;transition:background .15s,transform .15s}.ds-primary:hover{background:#d4e477}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}.ds-primary:disabled{background:#e4e7dc;color:#61685b;cursor:not-allowed}@media(max-width:540px){.ds-primary{min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}"
+    },
+    {
+      "name": "Outlined action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "A quiet supporting action, such as clearing filters or opening a screen.",
+      "html": "<button class=\"ds-secondary\">Clear filters</button>",
+      "css": ".ds-secondary{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:40px;padding:11px 16px;border:1px solid var(--control,#d8ddd0);border-radius:7px;font:500 12px/1.4 'Stack Sans Text',Arial,sans-serif;background:var(--sheet,#fff);color:var(--ink,#2d342b);cursor:pointer;transition:background .15s,transform .15s}.ds-secondary:hover{background:var(--surface,#f5f6f1)}.ds-secondary:active{transform:translateY(1px)}.ds-secondary:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}@media(max-width:540px){.ds-secondary{min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Olive action",
+      "kind": "button",
+      "refersTo": "button-dark",
+      "description": "Form submission and workspace entry from supporting screens.",
+      "html": "<button class=\"ds-dark\">Add task <svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M12 5v14M5 12h14\"/></svg></button>",
+      "css": ".ds-dark{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:40px;padding:11px 16px;border:0;border-radius:7px;font:500 12px/1.4 'Stack Sans Text',Arial,sans-serif;background:var(--ink,#2d342b);color:var(--sheet,#fff);cursor:pointer;transition:background .15s,transform .15s}.ds-dark:hover{background:#454e40}.ds-dark:active{transform:translateY(1px)}.ds-dark:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}@media(max-width:540px){.ds-dark{min-height:44px}}@media(prefers-reduced-motion:reduce){.ds-dark{transition:none}}"
+    },
+    {
+      "name": "Task search",
+      "kind": "input",
+      "refersTo": "input-search",
+      "description": "Compact search field with an inline SVG and a visible keyboard outline.",
+      "html": "<label class=\"ds-search\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><circle cx=\"11\" cy=\"11\" r=\"8\"/><path d=\"m21 21-4.3-4.3\"/></svg><input aria-label=\"Search tasks in this project\" type=\"search\" placeholder=\"Find a task\"/></label>",
+      "css": ".ds-search{position:relative;display:inline-flex;align-items:center}.ds-search>svg{position:absolute;left:11px;pointer-events:none;color:var(--secondary,#626b5d)}.ds-search input{width:180px;min-height:36px;padding:8px 12px 8px 33px;border:1px solid var(--line,#e7e9e0);border-radius:6px;font:400 11px 'Stack Sans Text',Arial,sans-serif;background:var(--sheet,#fff);color:var(--ink,#2d342b);caret-color:var(--ink,#2d342b)}.ds-search input::placeholder{color:var(--secondary,#626b5d)}.ds-search input:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}.ds-search input::selection{background:var(--accent,#e1ee8d);color:var(--ink,#2d342b)}@media(max-width:540px){.ds-search input{min-height:44px;font-size:12px}}"
+    },
+    {
+      "name": "Workspace navigation",
+      "kind": "nav",
+      "refersTo": "navigation-item",
+      "description": "Active project route in the neutral sidebar; native anchor semantics remain intact.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Workspace navigation preview\"><a class=\"ds-nav-item ds-nav-active\" href=\"#/product\" aria-current=\"page\"><svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M3 7V5h6l2 2h10v13H3Z\"/></svg>Website launch</a><a class=\"ds-nav-item\" href=\"#/design\">Brand refresh</a></nav>",
+      "css": ".ds-nav{display:flex;flex-direction:column;gap:5px;width:192px;padding:8px;background:var(--ground,#eeefe9)}.ds-nav-item{display:flex;align-items:center;gap:10px;min-height:41px;padding:10px 12px;border-radius:7px;font:400 11px 'Stack Sans Text',Arial,sans-serif;color:var(--secondary,#626b5d);text-decoration:none;transition:background .15s,color .15s}.ds-nav-item:hover{background:#e5e8dd;color:var(--ink,#2d342b)}.ds-nav-active{background:#e0e4d5;color:var(--ink,#2d342b)}.ds-nav-item:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}@media(prefers-reduced-motion:reduce){.ds-nav-item{transition:none}}"
+    },
+    {
+      "name": "Task card",
+      "kind": "card",
+      "refersTo": "task-card",
+      "description": "White task sheet with a complete/reopen title control, owner, category, and due notation. Preview is static.",
+      "html": "<article class=\"ds-task\"><button class=\"ds-task-toggle\" aria-label=\"Complete Review with the whole team\" aria-pressed=\"false\"><svg width=\"20\" height=\"23\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#9aa18e\" stroke-width=\"1.6\" aria-hidden=\"true\"><circle cx=\"12\" cy=\"12\" r=\"8\"/></svg><span>Review with the whole team</span></button><span class=\"ds-task-category\">Review</span><div class=\"ds-task-footer\"><span class=\"ds-person\"><span class=\"ds-avatar\">A</span>Alex</span><span>Thu</span></div></article>",
+      "css": ".ds-task{max-width:330px;padding:16px;border:1px solid var(--line,#e7e9e0);border-radius:7px;background:var(--sheet,#fff);color:var(--ink,#2d342b);font-family:'Stack Sans Text',Arial,sans-serif}.ds-task-toggle{display:flex;align-items:flex-start;gap:9px;min-height:44px;width:100%;padding:0;border:0;background:transparent;color:var(--ink,#2d342b);text-align:left;font:500 14px/1.5 'Stack Sans Text',Arial,sans-serif;cursor:pointer}.ds-task-toggle svg{flex-shrink:0}.ds-task-toggle svg:hover{stroke:var(--ink,#2d342b)}.ds-task-toggle:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}.ds-task-category{display:block;margin:12px 0 0 29px;color:var(--secondary,#626b5d);font-size:11px;line-height:1.5}.ds-task-footer{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:23px;font-size:11px;color:var(--secondary,#626b5d)}.ds-person{display:inline-flex;gap:7px;align-items:center}.ds-avatar{display:inline-flex;align-items:center;justify-content:center;width:25px;height:25px;border-radius:50%;background:#ebdfd4;color:#414b37}@media(max-width:540px){.ds-task{padding:17px}.ds-task-toggle{font-size:15px;gap:10px}}"
+    },
+    {
+      "name": "Task status",
+      "kind": "input",
+      "refersTo": "status-selector",
+      "description": "A native select changes status without dragging.",
+      "html": "<div class=\"ds-status\"><select aria-label=\"Status of preview task\"><option>Ready</option><option>In progress</option><option>Done</option></select><svg width=\"12\" height=\"12\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\"><path d=\"m6 9 6 6 6-6\"/></svg></div>",
+      "css": ".ds-status{position:relative;width:250px;color:var(--secondary,#626b5d)}.ds-status select{appearance:none;width:100%;min-height:31px;padding:6px 28px 6px 9px;border:0;border-radius:4px;background:var(--surface,#f5f6f1);color:var(--secondary,#626b5d);font:400 11px 'Stack Sans Text',Arial,sans-serif;cursor:pointer;accent-color:var(--accent-dark,#788639)}.ds-status>svg{position:absolute;right:10px;top:10px;pointer-events:none}.ds-status select:hover{background:#ecefe3;color:var(--ink,#2d342b)}.ds-status select:focus-visible{outline:2px solid var(--ink,#2d342b);outline-offset:4px}@media(max-width:540px){.ds-status select{min-height:44px;font-size:12px;padding-left:10px}.ds-status>svg{top:13px}}"
+    },
+    {
+      "name": "Recommended plan tag",
+      "kind": "chip",
+      "refersTo": "plan-tag",
+      "description": "Static recommendation annotation, not an interactive filter.",
+      "html": "<span class=\"ds-plan-tag\">Team favorite</span>",
+      "css": ".ds-plan-tag{display:inline-block;padding:5px 7px;border-radius:5px;background:#e4ebce;color:var(--ink,#2d342b);white-space:nowrap;font:400 11px 'Stack Sans Text',Arial,sans-serif}"
+    },
+    {
+      "name": "Project completion",
+      "kind": "custom",
+      "refersTo": "project-progress",
+      "description": "Olive completion bar with numeric text; the application computes its actual value.",
+      "html": "<div class=\"ds-completion\"><div class=\"ds-completion-label\"><span>Project progress</span><span class=\"ds-completion-number\">33%</span></div><div class=\"ds-completion-track\" role=\"progressbar\" aria-label=\"Project completion\" aria-valuenow=\"33\" aria-valuemin=\"0\" aria-valuemax=\"100\"><span></span></div><p>2 of 6 tasks complete</p></div>",
+      "css": ".ds-completion{max-width:340px;font:400 11px 'Stack Sans Text',Arial,sans-serif;color:var(--ink,#2d342b)}.ds-completion-label{display:flex;align-items:center;justify-content:space-between;gap:12px}.ds-completion-number{font-size:16px;font-variant-numeric:tabular-nums}.ds-completion-track{height:5px;overflow:hidden;background:#dfe5ce;border-radius:9px;margin-top:11px}.ds-completion-track>span{display:block;width:100%;height:100%;background:#7b8e3e;transform-origin:left;transform:scaleX(.33)}.ds-completion p{margin:9px 0 0;color:var(--secondary,#626b5d)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Daylight Studio Binder",
+    "overview": "NOVA Studio feels like a working binder opened on a bright desk: a quiet neutral navigation rail, a white working sheet, pale citron project context, and compact olive notation. The workspace is the visual material. Real task controls and reconciled counts establish its character before any product explanation.\n\nKeep the mood calm, precise, and approachable. Stack Sans gives headings a little personality while dense text, native selectors, restrained icons, and clear alignment keep work readable. The user explicitly rejected the prior cobalt marketing interface and its resemblance to Forge; this active world replaces that marketing composition with a complete workspace.",
+    "keyCharacteristics": [
+      "Neutral rail and white sheet, with tonal depth rather than shadows.",
+      "Citron actions and pale project jackets, anchored by olive ink.",
+      "Compact self-hosted type and readable task notation.",
+      "Task state, progress, and counts that reconcile together.",
+      "Familiar keyboard controls and a native mobile navigation dialog."
+    ],
+    "rules": [
+      {
+        "name": "The Working Accent Rule",
+        "body": "Use citron to support actions and project context; leave the main working sheet white and its task lanes neutral.",
+        "section": "colors"
+      },
+      {
+        "name": "The Work First Rule",
+        "body": "Keep task text and controls prominent; a large decorative headline must not displace the working board.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Sheet Rule",
+        "body": "Preserve tonal layering and thin boundaries; do not add ambient card shadows to the workspace.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** start with a usable working surface and preserve the neutral rail, white sheet, and pale project jacket.",
+      "**Do** use the actual Stack Sans families and compact task hierarchy.",
+      "**Do** reconcile task state, completion, and open counts from editable task data.",
+      "**Do** retain native selectors, keyboard outlines, reduced motion, and explicit phone status controls.",
+      "**Do** label fictional data, local persistence, and illustrative plan actions honestly."
+    ],
+    "donts": [
+      "**Don't** restore the superseded cobalt marketing landing or its hero-and-mockup composition.",
+      "**Don't** introduce gradients, glossy cards, or ambient shadows into the flat working planes.",
+      "**Don't** require dragging, hover, or color alone to understand or change task state.",
+      "**Don't** present demo plan controls as checkout or imply real customer adoption.",
+      "**Don't** add stock or generated raster decoration; the shipping visual assets are the authored SVG mark/favicon and licensed local fonts."
+    ]
+  }
+}
